@@ -2,6 +2,7 @@ fn main() {
 
     let string1 = String::from("learning");
     let string2 = String::from(" rust");
+
     let concatenated_string = concatenate_strings(&string1,&string2);
     println!("{}",concatenated_string);
     
